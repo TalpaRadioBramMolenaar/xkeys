@@ -106,6 +106,14 @@ const PRODUCTS = {
 		banks: 2,
 		disableKeys: [29,30,31, 37,38,39, 45,46,47, 53,54,55]
 	},
+	Pi3: {	// This has not been tested
+		identifier: "XK-4",
+		productId: [1030],
+		columns: 	16,
+		rows: 		8,
+		hasPS: 		false, // unknown
+		bankSize: 	128 // unknown
+	},
 };
 
 class XKeys extends EventEmitter {
